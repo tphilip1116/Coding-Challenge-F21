@@ -33,6 +33,13 @@ Regardless if you can or cannot answer the question, provide a short explanation
 Explanation: 
 The Natural Language Toolkit for python is used in the Solution. The VADER sentiment Analyzer was used to score each line of the text file. The overall sentiment score of the file is the average score of all the lines in the file. The score is calculated from the compound result of the the sentinment analyzer. 
 
+Compound Results are float numbers that express the magnitude of the sentiment.
+
+Scores Range from -1 to 1:
+Negative Sentiment will be closer to -1
+Neutral Sentiment will be closer to 0
+Positive Sentiment will be closer to 1
+
 The research on how to use the VADER Sentiment Analyzer was found in this website:
 https://realpython.com/python-nltk-sentiment-analysis/
 
