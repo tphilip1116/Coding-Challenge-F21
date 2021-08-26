@@ -30,3 +30,9 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+Explanation: 
+The Natural Language Toolkit for python is used in the Solution. The VADER sentiment Analyzer was used to score each line of the text file. The overall sentiment score of the file is the average score of all the lines in the file. The score is calculated from the compound result of the the sentinment analyzer. 
+
+The research on how to use the VADER Sentiment Analyzer was found in this website:
+https://realpython.com/python-nltk-sentiment-analysis/
+
