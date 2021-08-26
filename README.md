@@ -37,9 +37,11 @@ The Natural Language Toolkit for python is used in the Solution. The VADER senti
 Compound Results are float numbers that express the magnitude of the sentiment.
 
 Scores Range from -1 to 1:
-Negative Sentiment will be closer to -1
-Neutral Sentiment will be closer to 0
-Positive Sentiment will be closer to 1
+<ul>
+<li>Negative Sentiment will be closer to -1</li>
+<li>Neutral Sentiment will be closer to 0</li>
+<li>Positive Sentiment will be closer to 1</li>
+</ul>
 
 The research on how to use the VADER Sentiment Analyzer was found in this website:
 https://realpython.com/python-nltk-sentiment-analysis/
