@@ -16,9 +16,9 @@ Please follow the below instructions on how to submit your answers.
 
 4.  Submit your solution by filling out this [form](https://acmutd.typeform.com/to/zF1IcBGR).
 
-## Assessment Criteria 
+## Assessment Criteria
 
-Submissions will be evaluated holistically and based on a combination of effort, validity of approach, analysis, adherence to the prompt, use of outside resources (encouraged), promptness of your submission, and other factors. Your approach and explanation (detailed below) is the most weighted criteria, and partial solutions are accepted. 
+Submissions will be evaluated holistically and based on a combination of effort, validity of approach, analysis, adherence to the prompt, use of outside resources (encouraged), promptness of your submission, and other factors. Your approach and explanation (detailed below) is the most weighted criteria, and partial solutions are accepted.
 
 ## [](https://github.com/ACM-Research/Coding-Challenge-S21#question-one)Question One
 
@@ -30,9 +30,9 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
-## Explanation: 
+## Explanation:
 
-The Natural Language Toolkit for python is used in the Solution. The VADER sentiment Analyzer was used to score each line of the text file. The overall sentiment score of the file is the average score of all the lines in the file. The score is calculated from the compound result of the the sentinment analyzer. I used the average score of each line because I didn't want the length of the file to affect the sentiment score and the fixed range from -1 to 1 will be more consistent with larger groups files.
+The Natural Language Toolkit for python is used in the Solution. The VADER sentiment Analyzer was used to score each line of the text file. The overall sentiment score of the file is the average score of all the lines in the file. The score is calculated from the compound result of the sentiment analyzer. I used the average score of each line because I didn't want the length of the file to affect the sentiment score and the fixed range from -1 to 1 will be more consistent with larger groups files.
 
 Compound Results are float numbers that express the magnitude of the sentiment.
 
@@ -41,6 +41,9 @@ Scores Range from -1 to 1:
 - Neutral Sentiment will be closer to 0
 - Positive Sentiment will be closer to 1
 
+## Expectations:
+When I first read the file I notices some negative words towards the beginning but then as I began reading further I recognized a shift with a lot more positive words at the latter half of the text. Which is why it was no surprise to me when the program evaluated the sentiment with a positive response because the Vader Sentiment Analyzer uses the bag of words approach score the sentiment. The bag of words approach is when there is a database of pre-determined values assigned to a immense amount of keys. The database is then used to evaluate a sentence based on the composed words.
+
 ## Resources
 
 The research on how to use the VADER Sentiment Analyzer was found in this website:
@@ -48,3 +51,6 @@ https://realpython.com/python-nltk-sentiment-analysis/
 
 The research on comparing different sentiment analysis:
 https://medium.com/@b.terryjack/nlp-pre-trained-sentiment-analysis-1eb52a9d742c
+
+The research on the Bag of Words concept:
+https://machinelearningmastery.com/gentle-introduction-bag-words-model/
