@@ -17,7 +17,7 @@ for x in lines:
     sentimentScore += sia.polarity_scores(x).get('compound') #accumulating the scores for the file
 
 #Determining the average score for entire file
-sentimentScore /= lineNum 
+sentimentScore /= lineNum
 
 #Displaying the calculated total score
 print("Overall Sentiment Score: ", sentimentScore)
