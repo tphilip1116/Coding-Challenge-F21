@@ -42,7 +42,7 @@ Scores Range from -1 to 1:
 - Positive Sentiment will be closer to 1
 
 ## Expectations:
-When I first read the file I notices some negative words towards the beginning but then as I began reading further I recognized a shift with a lot more positive words at the latter half of the text. Which is why it was no surprise to me when the program evaluated the sentiment with a positive response because the Vader Sentiment Analyzer uses the bag of words approach score the sentiment. The bag of words approach is when there is a database of pre-determined values assigned to a immense amount of keys. The database is then used to evaluate a sentence based on the composed words.
+When I first read the file I notices some negative words towards the beginning but then as I began reading further I recognized a shift with a lot more positive words at the latter half of the text. The text file started with an excerpt from the book **Fahrenheit 451** which had some fairly negative sentiment specifically in this portion but then it switched to the **The Autobiography of Benjamin Franklin** which was mostly neutral and had somewhat of a positive sentiment. This is why it was no surprise to me when the program evaluated the sentiment with a positive response **(0.15277)** because the Vader Sentiment Analyzer uses the bag of words approach score the sentiment. The bag of words approach is when there is a database of pre-determined values assigned to a immense amount of keys. The database is then used to evaluate a sentence based on the composed words.
 
 ## Resources
 
